@@ -10,6 +10,7 @@ frame_width = 680
 frame_height = 460
 cap = cv.VideoCapture(0)
 
+# The "hands" module specifically is designed to detect and track human hand movements and gestures from a live video stream or a pre-recorded video.
 mphands = mp.solutions.hands
 hands = mphands.Hands()
 mpdraw = mp.solutions.drawing_utils
